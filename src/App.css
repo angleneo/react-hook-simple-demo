@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+div {
+  margin: 20px 0;
+}
+.time-box {
+  margin:0 auto;
+  width: 300px;
+  display:flex;
+  justify-content: space-between;
+}
