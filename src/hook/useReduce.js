@@ -22,13 +22,14 @@ function useReducerDemo (initialCount) {
   const [state, dispatch] = useReducer(reducer, initialCount, init);
   return (
     <>
-      Count: {state.count}
+    <h2>useReducer用法:</h2>
+      <div>Count: {state.count}</div>
+      <button onClick={() => dispatch({ type: 'increment' })}>+</button>
       <button
         onClick={() => dispatch({ type: 'reset', payload: initialCount })}>
         Reset
       </button>
       <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
-      <button onClick={() => dispatch({ type: 'increment' })}>+</button>
     </>
   );
 }

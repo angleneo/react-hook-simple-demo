@@ -4,6 +4,9 @@
 div {
   margin: 20px 0;
 }
+ul > li {
+  list-style-type: none;
+}
 .time-box {
   margin:0 auto;
   width: 300px;

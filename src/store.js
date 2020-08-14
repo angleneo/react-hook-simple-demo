@@ -7,8 +7,8 @@ const { Provider } = AppContext;
 
 export function AppProvider (props) {
   const [list, setlist] = useState([
-    { name: 'xx', age: 19 },
-    { name: 'aa', age: 29 }
+    { name: 'Make', age: 19 },
+    { name: 'Tony', age: 29 }
   ])
   return <Provider value={{ list, setlist }}>{props.children}</Provider>
 }
